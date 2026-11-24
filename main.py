@@ -10,7 +10,7 @@ import os
 
 ENTRY = "If this is my last line, let it be this: I would rather be yours for one more second than anyone's forever."
 
-LIMIT = 200
+LIMIT = 200  # gate: one line, 1-200 characters, no padding, no double spaces
 FORBIDDEN = ("\n", "\r", "\t", "  ")
 
 
